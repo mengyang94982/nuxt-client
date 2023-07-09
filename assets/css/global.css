@@ -1,0 +1,52 @@
+@import "./reset.css";
+
+html,
+body,
+#app {
+  height: 100%;
+  background-color: #f7f7f8;
+}
+.sider-title::after {
+  background: #1890ff;
+  bottom: -10px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.sider-title-6::after {
+  bottom: -6px;
+}
+
+.color-1 {
+  background: #f3a683;
+}
+
+.color-2 {
+  background: #778beb;
+}
+
+.color-3 {
+  background: #e77f67;
+}
+
+.color-4 {
+  background: #f5cd79;
+}
+
+.color-5 {
+  background: #0fb9b1;
+}
+
+.color-6 {
+  background: #f8a5c2;
+}
+
+.color-7 {
+  background: #596275;
+}
+
+.color-8 {
+  background: #20bf6b;
+}
